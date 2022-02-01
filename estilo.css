@@ -1,0 +1,136 @@
+@charset "UFT-08";
+
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    text-shadow: 2px 2px 10px black
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+
+:root{
+    --cor01: #091732;
+    --cor02: #02071b;
+    --font01: 'Montserrat', sans-serif;
+}
+
+body{
+    background-color: var(--cor02);
+}
+
+header{
+    padding: 10px;
+    border-bottom: 0.5px solid #091732;
+    background-color: var(--cor02);
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+nav > a{
+    padding: 20px;
+}
+
+a:hover{
+    color: #1c44e6;
+}
+
+.imgcabeçalho{
+    height: 150px;
+}
+
+main{
+    max-width: 1000px;
+    margin: auto;
+}
+
+section{
+    height: 600px;
+    padding: 10px;
+    margin: 20px;
+}
+
+.principal{
+    background-color: var(--cor01);
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.imgorlando{
+    height: 300px;
+}
+
+.divprincipal{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 38px;
+}
+
+.colab1{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.divbeatriz{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 38px;
+}
+
+.imgbeatriz{
+    height: 400px;
+}
+
+.colab2{
+    background-image: url('img/backgroundcrypto2.png');
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.divligia{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 38px;
+}
+
+.imgligia{
+    height: 400px;
+}
+
+.colab3{
+    background-image: url('img/lawtech.png');
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.imgcarol{
+    height: 400px;
+}
+
+.divcarol{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 38px;
+}
+
+footer{
+    text-align: center;
+    padding: 10px;
+}
